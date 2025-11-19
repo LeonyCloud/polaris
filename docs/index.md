@@ -6,6 +6,9 @@ hero:
   name: "Leony Guideline"
   text: "A VitePress Site"
   tagline: My great project tagline
+  img:
+    src: /favorite.svg
+    alt: brand logo
   actions:
     - theme: brand
       text: Markdown Examples
