@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "Leony Guideline"
-  text: "A VitePress Site"
+  name: "Leony Polaris"
+  text: "Guideline"
   tagline: My great project tagline
   image:
-    src: /favorite.svg
+    src: /brand-icon.svg
     alt: brand logo
   actions:
     - theme: brand

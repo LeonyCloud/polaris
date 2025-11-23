@@ -2,20 +2,21 @@ import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "Leony Guideline",
-    description: "A VitePress Site",
+    title: "Leony Polaris",
+    description: "Guideline",
     lang: 'zh_CN',
     head: [
-        ['link', {rel: 'icon', href: '/favorite.svg'}]
+        ['link', {rel: 'icon', href: '/brand-icon.svg'}]
     ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
 
-        logo: '/favorite.svg',
+        logo: '/brand-icon.svg',
 
         nav: [
             {text: '首页', link: '/'},
-            {text: '指南', link: '/markdown-examples'}
+            {text: '指南', link: '/markdown-examples'},
+            {text: 'BLOG', link: 'https://journey.leony.cloud'}
         ],
 
         search: {
@@ -53,7 +54,7 @@ export default defineConfig({
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/synn/journey'},
+            {icon: 'github', link: 'https://github.com/synn/polaris.leony'},
             {icon: 'wechat', link: 'https://github.com/vuejs/vitepress'}
         ]
     }
